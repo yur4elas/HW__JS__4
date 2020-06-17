@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>task4</title>
+   <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+   <div class="wrapper">
+      <div class="notebook">
+         <form class="laptop">
+            <h2>Laptop</h2>
+            <div class="input-box">
+               <label for="name-laptop">Название</label>
+               <input type="text" name="name-laptop" id="name-laptop">
+            </div>
+            <div class="input-box">
+               <label for="year-laptop">Год выпуска</label>
+               <input type="number" name="year-laptop" id="year-laptop">
+            </div>
+            <div class="input-box">
+               <label for="processor-laptop">Процессор</label>
+               <input type="text" name="processor-laptop" id="processor-laptop">
+            </div>
+            <div class="input-box">
+               <label for="ram-laptop">Количество ОЗУ</label>
+               <input type="number" name="ram-laptop" id="ram-laptop">
+            </div>
+            <div class="input-box">
+               <label for="core-laptop">Количество ядер</label>
+               <input type="number" name="core-laptop" id="core-laptop">
+            </div>
+            <div class="input-box">
+               <label for="material-laptop">Материал корпуса</label>
+               <input type="text" name="material-laptop" id="material-laptop">
+            </div>
+            <div class="input-box">
+               <label for="weight-laptop">Вес</label>
+               <input type="number" name="weight-laptop" id="weight-laptop" placeholder="в граммах">
+            </div>
+            <div class="input-box">
+               <input type="submit" value="Добавить" id="submit-laptop">
+            </div>
+         </form>
+         <form class="ultra">
+            <h2>Ultra</h2>
+            <div class="input-box">
+               <label for="name-ultra">Название</label>
+               <input type="text" name="name-ultra" id="name-ultra">
+            </div>
+            <div class="input-box">
+               <label for="year-ultra">Год выпуска</label>
+               <input type="text" name="year-ultra" id="year-ultra">
+            </div>
+            <div class="input-box">
+               <label for="processor-ultra">Процессор</label>
+               <input type="text" name="processor-ultra" id="processor-ultra">
+            </div>
+            <div class="input-box">
+               <label for="ram-ultra">Количество ОЗУ</label>
+               <input type="text" name="ram-ultra" id="ram-ultra">
+            </div>
+            <div class="input-box">
+               <label for="core-ultra">Количество ядер</label>
+               <input type="text" name="core-ultra" id="core-ultra">
+            </div>
+            <div class="input-box">
+               <label for="color-ultra">Цвет корпуса</label>
+               <input type="text" name="color-ultra" id="color-ultra">
+            </div>
+            <div class="input-box">
+               <label for="weight-ultra">Вес</label>
+               <input type="text" name="weight-ultra" id="weight-ultra" placeholder="в граммах">
+            </div>
+            <div class="input-box">
+               <input type="submit" value="Добавить" id="submit-ultra">
+            </div>
+         </form>
+      </div>
+      <div class="prop-all">
+         <div class="prop-notebook">
+            <div class="prop-ram">Количество ОЗУ</div>
+            <div class="prop-year">Год выпуска</div>
+            <div class="action">Действие</div>            
+         </div>         
+      </div>
+   </div>
+   <div class="overlay">
+      <div class="popup">
+         <div class="content"></div>
+         <span class="close"></span>
+      </div>
+   </div>
+   
+
+   <script src="./js/script.js"></script>
+   <script src="./js/viewLaptop.js"></script>
+   <script src="./js/viewUltra.js"></script>
+   <script src="./js/notebook.js"></script>
+   <script src="./js/popup.js"></script>
+
+</body>
+
+</html>
